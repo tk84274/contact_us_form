@@ -1,0 +1,62 @@
+*{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+.heading{
+    margin: 50px;
+}
+.heading h4,h1{
+    margin: 10px;
+}
+h1{
+    color: #2C3345;
+}
+h4{
+    color: #57647E;
+}
+input#lastname{
+    margin-left: 25px;
+}
+hr{
+    color: #57647E;
+    height: 0.5px;
+}
+.details{
+    margin: 50px;
+    margin-bottom: 30px;
+}
+.details p{
+    color: #57647E;
+    font-size: 20px;
+}
+.star{
+    color: red;
+}
+input[type="text"], 
+input[type=tel],
+input[type=datetime-local]
+{
+    height: 28px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+    
+    border: 1px solid #57647E;
+    border-color: #57647E;
+    box-shadow: none;
+}
+select{
+    height: 32px;
+    border-radius: 5px;
+    border-width: 0.5px;
+}
+input[type=submit]{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 34px;
+    width: 180px;
+    border: none;
+    background-color: #16AA52;
+    border-radius: 4px;
+    color:seashell;
+    font-size: 15px;
+}
